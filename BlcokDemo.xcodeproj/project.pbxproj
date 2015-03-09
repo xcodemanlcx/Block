@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1833CC141AADA6C800B57C0B /* File in Resources */ = {isa = PBXBuildFile; fileRef = 1833CC131AADA6C800B57C0B /* File */; };
 		183A30871A5EA7530094A61F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A30861A5EA7530094A61F /* main.m */; };
 		183A308A1A5EA7530094A61F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A30891A5EA7530094A61F /* AppDelegate.m */; };
 		183A308D1A5EA7530094A61F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A308C1A5EA7530094A61F /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		183A30921A5EA7530094A61F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183A30911A5EA7530094A61F /* Images.xcassets */; };
 		183A30951A5EA7530094A61F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183A30931A5EA7530094A61F /* LaunchScreen.xib */; };
 		183A30A11A5EA7530094A61F /* BlcokDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A30A01A5EA7530094A61F /* BlcokDemoTests.m */; };
+		186092861AA0433700FC5307 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186092851AA0433700FC5307 /* MyButton.m */; };
+		186092891AA0498200FC5307 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186092881AA0498200FC5307 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1833CC131AADA6C800B57C0B /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		183A30811A5EA7530094A61F /* BlcokDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlcokDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183A30851A5EA7530094A61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183A30861A5EA7530094A61F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,10 @@
 		183A309A1A5EA7530094A61F /* BlcokDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlcokDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183A309F1A5EA7530094A61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183A30A01A5EA7530094A61F /* BlcokDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlcokDemoTests.m; sourceTree = "<group>"; };
+		186092841AA0433700FC5307 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		186092851AA0433700FC5307 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		186092871AA0498200FC5307 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		186092881AA0498200FC5307 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,11 @@
 				183A30891A5EA7530094A61F /* AppDelegate.m */,
 				183A308B1A5EA7530094A61F /* ViewController.h */,
 				183A308C1A5EA7530094A61F /* ViewController.m */,
+				186092871AA0498200FC5307 /* BaseViewController.h */,
+				186092881AA0498200FC5307 /* BaseViewController.m */,
+				186092841AA0433700FC5307 /* MyButton.h */,
+				186092851AA0433700FC5307 /* MyButton.m */,
+				1833CC131AADA6C800B57C0B /* File */,
 				183A308E1A5EA7530094A61F /* Main.storyboard */,
 				183A30911A5EA7530094A61F /* Images.xcassets */,
 				183A30931A5EA7530094A61F /* LaunchScreen.xib */,
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1833CC141AADA6C800B57C0B /* File in Resources */,
 				183A30901A5EA7530094A61F /* Main.storyboard in Resources */,
 				183A30951A5EA7530094A61F /* LaunchScreen.xib in Resources */,
 				183A30921A5EA7530094A61F /* Images.xcassets in Resources */,
@@ -220,8 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				183A308D1A5EA7530094A61F /* ViewController.m in Sources */,
+				186092891AA0498200FC5307 /* BaseViewController.m in Sources */,
 				183A308A1A5EA7530094A61F /* AppDelegate.m in Sources */,
 				183A30871A5EA7530094A61F /* main.m in Sources */,
+				186092861AA0433700FC5307 /* MyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = BlcokDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = BlcokDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +430,7 @@
 				183A30A61A5EA7530094A61F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183A30A71A5EA7530094A61F /* Build configuration list for PBXNativeTarget "BlcokDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				183A30A91A5EA7530094A61F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
